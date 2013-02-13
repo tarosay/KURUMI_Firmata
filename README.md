@@ -1,6 +1,6 @@
 KURUMIのFirmataサンプルです。
 
-C#のサンプルも置きました。firmata.NETは下記サイトより入手してください。
+C#のサンプルも置きました。firmata.NETは次のサイトより入手してください。
 http://www.imagitronics.org/projects/firmatanet/
 
 手順
