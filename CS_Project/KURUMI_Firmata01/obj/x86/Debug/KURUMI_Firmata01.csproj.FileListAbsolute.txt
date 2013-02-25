@@ -1,0 +1,9 @@
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\bin\Debug\KURUMI_Firmata.exe
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\bin\Debug\KURUMI_Firmata.pdb
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\KURUMI_Firmata.Form1.resources
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\KURUMI_Firmata.Properties.Resources.resources
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\KURUMI_Firmata.exe
+C:\Users\minao\Documents\Visual Studio 2010\Projects\KURUMI_Firmata\KURUMI_Firmata01\obj\x86\Debug\KURUMI_Firmata.pdb

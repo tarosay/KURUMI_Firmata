@@ -121,7 +121,7 @@ namespace KURUMI_Firmata
         private void btnRead22_Click(object sender, EventArgs e)
         {
             string j = "";
-            for (int i = 0; i <4; i++)
+            for (int i = 0; i < 8; i++)
             {
                 int a = Kurumi.analogRead(i);
                 j = j + a.ToString().Trim() + " ";
@@ -137,29 +137,52 @@ namespace KURUMI_Firmata
         private void digiread()
         {
             string j = "";
-            for (int i = 2; i <= 9; i++)
+            for (int i = 0; i < 25; i++)
             {
                 int a = Kurumi.digitalRead(i);
                 j = j + a.ToString().Trim() + " ";
             }
-            this.textBox1.Text = j;
+            this.textBox2.Text = j;
         }
 
         private void btnOutput_Click(object sender, EventArgs e)
         {
             Kurumi.pinMode(2, Arduino.OUTPUT);
+            Kurumi.pinMode(3, Arduino.OUTPUT);
+            Kurumi.pinMode(4, Arduino.OUTPUT);
+            Kurumi.pinMode(5, Arduino.OUTPUT);
+            Kurumi.pinMode(6, Arduino.OUTPUT);
+            Kurumi.pinMode(7, Arduino.OUTPUT);
+        }
 
-            int m = Kurumi.digitalRead(2);
-            if (m == 0)
-            {
-                Kurumi.digitalWrite(2, Arduino.HIGH);
-            }
-            else
-            {
-                Kurumi.digitalWrite(2, Arduino.LOW);
-            }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(2, checkBox1.Checked == true ? Arduino.HIGH : Arduino.LOW);
+        }
 
-            digiread();
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(3, checkBox2.Checked == true ? Arduino.HIGH : Arduino.LOW);
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(4, checkBox3.Checked == true ? Arduino.HIGH : Arduino.LOW);
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(5, checkBox4.Checked == true ? Arduino.HIGH : Arduino.LOW);
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(6, checkBox5.Checked == true ? Arduino.HIGH : Arduino.LOW);
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            Kurumi.digitalWrite(7, checkBox6.Checked == true ? Arduino.HIGH : Arduino.LOW);
         }
     }
 }
