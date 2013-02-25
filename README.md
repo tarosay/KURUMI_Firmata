@@ -4,9 +4,7 @@ C#のサンプルも置きました。firmata.NETは次のサイトより入手�
 http://www.imagitronics.org/projects/firmatanet/
 
 手順
-　KURUMIのLEDが点灯するとFirmataは動作開始しています。
-
-　C#のプログラムを実行してください。KURUMIのDigitalとAnalogの制御ができると思います。
+　KURUMIをシリアル接続して、C#のプログラムを実行してください。KURUMIのDigitalとAnalogの制御ができると思います。
 
 　後は、ソースをみてください。
 ==============
